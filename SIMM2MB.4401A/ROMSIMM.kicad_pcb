@@ -915,7 +915,7 @@
       (net 4 /~WE~))
     (pad 32 smd roundrect (at 1.27 -6.8375) (size 0.6 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../stdpads.3dshapes/PLCC-32_PTHSocket.wrl
+    (model ${KIPRJMOD}/../../stdpads.3dshapes/PLCC-32_PTHSocket.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 180))

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name GW_RAM)(type Legacy)(uri "$(KIPRJMOD)/../GW_Parts/GW_RAM.lib")(options "")(descr ""))
-  (lib (name ROMSIMM-rescue)(type Legacy)(uri ${KIPRJMOD}/ROMSIMM-rescue.lib)(options "")(descr ""))
-)
