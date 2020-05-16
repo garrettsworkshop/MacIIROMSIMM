@@ -1,4 +1,4 @@
-update=Saturday, July 13, 2019 at 07:50:27 PM
+update=Thursday, May 14, 2020 at 06:45:41 PM
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=simm-30-4mb.net
+LastNetListRead=ROMSIMM.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -66,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.07619999999999999
 SolderMaskMinWidth=0.1524
 SolderPasteClearance=-0.03809999999999999
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

@@ -1,0 +1,16 @@
+### Module positions - created on Friday, May 15, 2020 at 06:32:23 PM ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                 PosX       PosY       Rot  Side
+C1        10u       C_0805               79.5020  -105.9180  270.0000  top
+C2        10u       C_0805               79.5020  -121.9200   90.0000  top
+C3        10u       C_0805              161.7980  -105.9180  270.0000  top
+C4        10u       C_0805              161.7980  -121.5390   90.0000  top
+C5        2u2       C_0603              120.6500  -123.4440  270.0000  top
+C6        2u2       C_0603              120.6500  -104.6480  270.0000  top
+U1        D31-24    PLCC-32_SMDSocket    90.1700  -113.0300    0.0000  top
+U2        D23-16    PLCC-32_SMDSocket   110.4900  -113.0300    0.0000  top
+U3        D15-8     PLCC-32_SMDSocket   130.8100  -113.0300    0.0000  top
+U4        D7-0      PLCC-32_SMDSocket   151.1300  -113.0300    0.0000  top
+## End
