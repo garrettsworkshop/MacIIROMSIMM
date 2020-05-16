@@ -1,4 +1,4 @@
-17150075429976145
+17151665108784145
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75639,7 +75639,7 @@ MacIIROMSIMM_Edge
 
 
 0
-65
+64
 64
 stdpads
 Maxim_QFN-32-1EP_5x5mm_T3255+4
@@ -76159,6 +76159,13 @@ TQFP QFP
 0
 144
 144
+stdpads
+TSOP-I-48_18.4x12mm_P0.5mm
+TSOP I, 32 pins, 18.4x8mm body (https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf)
+TSOP I 32
+0
+48
+48
 stdpads
 TSOP-II-44_400mil_P0.8mm
 TSOP-II, 44 Pin (http://www.issi.com/WW/pdf/61-64C5128AL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
