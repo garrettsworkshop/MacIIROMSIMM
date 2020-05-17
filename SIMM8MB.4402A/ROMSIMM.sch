@@ -537,9 +537,6 @@ NoConn ~ 9600 4700
 Connection ~ 9600 4300
 Wire Wire Line
 	9600 4400 9600 4300
-Connection ~ 8600 5100
-Wire Wire Line
-	8600 4900 8600 5100
 Text Label 8600 4900 2    50   ~ 0
 RA23
 Text Label 7050 4900 2    50   ~ 0
@@ -1655,4 +1652,55 @@ F 3 "" H 3800 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3900 2850 4000 2850
+Text Label 5400 950  2    50   ~ 0
+RA23
+$Comp
+L Device:R_Small R1
+U 1 1 5EC0CD79
+P 5500 850
+F 0 "R1" H 5559 896 50  0000 L CNN
+F 1 "3k3" H 5559 805 50  0000 L CNN
+F 2 "stdpads:R_0805" H 5500 850 50  0001 C CNN
+F 3 "~" H 5500 850 50  0001 C CNN
+	1    5500 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 950  5500 950 
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EC0FA8C
+P 5500 750
+F 0 "#PWR?" H 5500 600 50  0001 C CNN
+F 1 "+3V3" H 5500 900 50  0000 C CNN
+F 2 "" H 5500 750 50  0001 C CNN
+F 3 "" H 5500 750 50  0001 C CNN
+	1    5500 750 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 5EC10C6B
+P 5900 950
+F 0 "SW1" H 5900 1100 50  0000 C CNN
+F 1 "ROM Select" H 5900 800 50  0000 C CNN
+F 2 "" H 5900 950 50  0001 C CNN
+F 3 "~" H 5900 950 50  0001 C CNN
+	1    5900 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 950  5600 950 
+Connection ~ 5500 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5EC13E25
+P 6200 950
+F 0 "#PWR?" H 6200 700 50  0001 C CNN
+F 1 "GND" H 6200 800 50  0000 C CNN
+F 2 "" H 6200 950 50  0001 C CNN
+F 3 "" H 6200 950 50  0001 C CNN
+	1    6200 950 
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
