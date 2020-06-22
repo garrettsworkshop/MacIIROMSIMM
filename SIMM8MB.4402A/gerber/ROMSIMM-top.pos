@@ -1,0 +1,38 @@
+### Module positions - created on Thursday, June 04, 2020 at 07:12:32 PM ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                                         PosX       PosY       Rot  Side
+C1        2u2         C_0603                                                       77.6000  -121.2500   90.0000  top
+C2        2u2         C_0603                                                      141.5000  -122.3500   90.0000  top
+C3        2u2         C_0603                                                       78.3500  -113.7500    0.0000  top
+C4        2u2         C_0603                                                      111.7500  -109.4500    0.0000  top
+C5        2u2         C_0603                                                      154.5500  -109.4500    0.0000  top
+C6        2u2         C_0603                                                       86.3500  -122.3500   90.0000  top
+C7        2u2         C_0603                                                       96.5000  -122.3500   90.0000  top
+C8        2u2         C_0603                                                      106.7135  -122.3500   90.0000  top
+C9        2u2         C_0603                                                      116.8500  -122.3500   90.0000  top
+C10       2u2         C_0603                                                      129.5500  -122.3500   90.0000  top
+C11       2u2         C_0603                                                      139.7000  -122.3500   90.0000  top
+C12       2u2         C_0603                                                      151.0500  -122.3500   90.0000  top
+C13       2u2         C_0603                                                      160.0000  -122.3500   90.0000  top
+C14       2u2         C_0603                                                       86.6000  -108.7000   90.0000  top
+C15       2u2         C_0603                                                      126.8500  -109.4000    0.0000  top
+FID1      Fiducial    Fiducial                                                     75.9460  -104.2670    0.0000  top
+FID2      Fiducial    Fiducial                                                     75.4380  -123.4440    0.0000  top
+FID3      Fiducial    Fiducial                                                    167.8940  -123.4440    0.0000  top
+FID4      Fiducial    Fiducial                                                    165.3540  -104.2670    0.0000  top
+R1        3k3         R_0805                                                      157.0990  -105.5370    0.0000  top
+SW1       ROM_Select  SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile   161.2900  -109.8550  270.0000  top
+U1        MX29LV320   TSOP-I-48_18.4x12mm_P0.5mm                                   99.4500  -109.7000    0.0000  top
+U2        MX29LV320   TSOP-I-48_18.4x12mm_P0.5mm                                  142.2400  -109.7000    0.0000  top
+U3        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                  102.1750  -120.1500  270.0000  top
+U4        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                  112.3750  -120.1500  270.0000  top
+U5        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                  146.5750  -120.1500  270.0000  top
+U6        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                  155.5250  -120.1500  270.0000  top
+U7        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                   81.8750  -120.1500  270.0000  top
+U8        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                   92.0250  -120.1500  270.0000  top
+U9        74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                  125.0750  -120.1500  270.0000  top
+U10       74AHC245    TSSOP-20_4.4x6.5mm_P0.65mm                                  135.2250  -120.1500  270.0000  top
+U11       LD1117S33   SOT-223                                                      80.7500  -109.4500    0.0000  top
+## End
