@@ -1,9 +1,9 @@
-### Module positions - created on Thursday, June 04, 2020 at 07:12:32 PM ###
+### Module positions - created on Tuesday, June 23, 2020 at 07:47:53 PM ###
 ### Printed by Pcbnew version kicad (5.1.5-0-10_14)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val         Package                                                         PosX       PosY       Rot  Side
-C1        2u2         C_0603                                                       77.6000  -121.2500   90.0000  top
+C1        2u2         C_0603                                                       77.6000  -121.1230   90.0000  top
 C2        2u2         C_0603                                                      141.5000  -122.3500   90.0000  top
 C3        2u2         C_0603                                                       78.3500  -113.7500    0.0000  top
 C4        2u2         C_0603                                                      111.7500  -109.4500    0.0000  top
