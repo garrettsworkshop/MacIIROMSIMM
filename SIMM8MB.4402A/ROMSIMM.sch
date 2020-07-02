@@ -293,7 +293,7 @@ F 3 "" H 2600 5350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 3400 5350 0    50   ~ 0
-~WE~
+DdirR
 $Comp
 L GW_Logic:74245 U5
 U 1 1 5EC14959
@@ -328,7 +328,7 @@ F 3 "" H 2600 4050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 3400 4050 0    50   ~ 0
-~WE~
+DdirR
 $Comp
 L GW_Logic:74245 U4
 U 1 1 5EC1A606
@@ -363,7 +363,7 @@ F 3 "" H 2600 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 3400 2750 0    50   ~ 0
-~WE~
+Ddir
 $Comp
 L GW_Logic:74245 U3
 U 1 1 5EC1A619
@@ -398,7 +398,7 @@ F 3 "" H 2600 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 3400 1450 0    50   ~ 0
-~WE~
+Ddir
 Text Label 3400 4850 0    50   ~ 0
 RD16
 Text Label 3400 4750 0    50   ~ 0
@@ -1684,7 +1684,7 @@ U 1 1 5EC10C6B
 P 5900 950
 F 0 "SW1" H 5900 1100 50  0000 C CNN
 F 1 "ROM Select" H 5900 800 50  0000 C CNN
-F 2 "" H 5900 950 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile" H 5900 950 50  0001 C CNN
 F 3 "~" H 5900 950 50  0001 C CNN
 	1    5900 950 
 	1    0    0    -1  
@@ -1730,4 +1730,58 @@ F 3 "~" H 8350 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8350 6050
+$Comp
+L GW_Logic:741G02GW U12
+U 1 1 5EF4BDF5
+P 5700 3250
+F 0 "U12" H 5700 3500 50  0000 C CNN
+F 1 "74LVC1G02GW" H 5700 3000 50  0000 C CNN
+F 2 "stdpads:SOT-353" H 5700 2950 50  0001 C TNN
+F 3 "" H 5700 3050 60  0001 C CNN
+	1    5700 3250
+	1    0    0    -1  
+$EndComp
+Text Label 5300 3150 2    50   ~ 0
+~CS~
+$Comp
+L power:+3V3 #PWR0154
+U 1 1 5EF4CD76
+P 6100 3150
+F 0 "#PWR0154" H 6100 3000 50  0001 C CNN
+F 1 "+3V3" H 6100 3300 50  0000 C CNN
+F 2 "" H 6100 3150 50  0001 C CNN
+F 3 "" H 6100 3150 50  0001 C CNN
+	1    6100 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 5EF4D490
+P 5300 3350
+F 0 "#PWR0155" H 5300 3100 50  0001 C CNN
+F 1 "GND" H 5300 3200 50  0000 C CNN
+F 2 "" H 5300 3350 50  0001 C CNN
+F 3 "" H 5300 3350 50  0001 C CNN
+	1    5300 3350
+	-1   0    0    -1  
+$EndComp
+Text Label 6500 3350 0    50   ~ 0
+DdirR
+Text Label 5300 3250 2    50   ~ 0
+~OE~
+$Comp
+L Device:R_Small R2
+U 1 1 5EFDEB5D
+P 6400 3350
+F 0 "R2" V 6350 3350 50  0000 C BNN
+F 1 "100" V 6450 3350 50  0000 C TNN
+F 2 "stdpads:R_0805" H 6400 3350 50  0001 C CNN
+F 3 "~" H 6400 3350 50  0001 C CNN
+	1    6400 3350
+	0    1    1    0   
+$EndComp
+Text Label 6100 3350 0    50   ~ 0
+Ddir
+Wire Wire Line
+	6100 3350 6300 3350
 $EndSCHEMATC
