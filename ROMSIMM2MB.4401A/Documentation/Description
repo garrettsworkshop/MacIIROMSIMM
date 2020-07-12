@@ -5,7 +5,32 @@ preprogrammed with a customized, 32-bit clean
 Macintosh ROM. The customized ROM allows your 
 Macintosh to use more than 8MB of RAM, 
 and also features a 1.5MB bootable ROM disk 
-preloaded with System 7.0 and several utilities. 
+preloaded with System 6 and several utilities. 
+
+
+Fast Startup
+----------------------------------------
+It takes under 10 seconds to boot from 
+the included ROM-based System 6.0.8, 
+so you can begin working with programs 
+or playing games almost instantly. 
+
+
+ROM Disk Settings
+----------------------------------------
+A control panel allows your preferences
+for the built-in ROM disk to be changed. 
+You can boot from the ROM disk, 
+mount it under another boot disk,
+or hide it from the desktop completely. 
+Of course, you can always hold "R" 
+during startup to boot from ROM. 
+It's also possible to enable RAM disk mode, 
+which allows writing data to the ROM disk,
+although it is not retained between restarts.
+The RAM disk is enabled by holding "R" and "A" 
+during startup, or by enabling a setting 
+in the control panel. 
 
 
 Ecologically Friendly, Gold-Plated PCB
@@ -13,7 +38,7 @@ Ecologically Friendly, Gold-Plated PCB
 GW4401A features a lead-free, ENIG gold-plated,
 4-layer PCB and is fully EU RoHS-compliant. 
 All units are tested extensively before shipment. 
-Only new parts are used to build RAM2GS II, 
+Only new parts are used to build GW4401A, 
 and all GW4401A SIMMs are manufactured in our 
 semi-automated facility in Columbus, Ohio, 
 in the United States. 
