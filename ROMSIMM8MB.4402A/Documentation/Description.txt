@@ -8,6 +8,18 @@ and also features a 7.5MB bootable ROM disk
 preloaded with System 7 and several utilities.
 
 
+Compatibility
+----------------------------------------
+GW4402A is compatible with the following
+Macintosh computers:
+	- Macintosh IIx
+	- Macintosh IIcx
+	- Macintosh IIci
+	- Macintosh IIfx
+	- Macintosh IIsi
+	- Macintosh SE/30
+
+
 Fast Startup
 ----------------------------------------
 It takes about 10 seconds to boot from 
