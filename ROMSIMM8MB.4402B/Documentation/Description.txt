@@ -5,7 +5,7 @@ preprogrammed with a customized, 32-bit clean
 Macintosh ROM. The customized ROM allows your 
 Macintosh to use more than 8MB of RAM, 
 and also features a 7.5MB bootable ROM disk 
-preloaded with System 7 and several utilities.
+preloaded with System 7.1 and several utilities.
 
 
 Compatibility
@@ -23,7 +23,7 @@ Macintosh computers:
 Fast Startup
 ----------------------------------------
 It takes about 10 seconds to boot from 
-the included ROM-based System 7.0.1, 
+the included ROM-based System 7.1, 
 so you can begin working with programs 
 or playing games almost instantly. 
 
