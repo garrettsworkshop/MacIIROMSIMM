@@ -866,29 +866,6 @@ F 3 "" H 4000 5350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GW_Logic:74245 U8
-U 1 1 5EC89362
-P 4400 3200
-F 0 "U8" H 4400 3800 50  0000 C CNN
-F 1 "74AHC245" H 4400 2600 50  0000 C CNN
-F 2 "stdpads:TSSOP-20_4.4x6.5mm_P0.65mm" H 4400 2550 50  0001 C TNN
-F 3 "" H 4400 3300 60  0001 C CNN
-F 4 "C132987" H 4400 3200 50  0001 C CNN "LCSC Part"
-	1    4400 3200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0128
-U 1 1 5EC8936E
-P 4000 2750
-F 0 "#PWR0128" H 4000 2600 50  0001 C CNN
-F 1 "+3V3" H 4000 2900 50  0000 C CNN
-F 2 "" H 4000 2750 50  0001 C CNN
-F 3 "" H 4000 2750 50  0001 C CNN
-	1    4000 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GW_Logic:74245 U7
 U 1 1 5EC89375
 P 4400 1900
@@ -944,20 +921,16 @@ $EndComp
 Wire Wire Line
 	4900 1250 4800 1250
 Text Label 4000 2350 2    50   ~ 0
-A0
-Text Label 4000 2250 2    50   ~ 0
-A1
-Text Label 4000 2150 2    50   ~ 0
 A2
-Text Label 4000 2050 2    50   ~ 0
+Text Label 4000 2250 2    50   ~ 0
 A3
-Text Label 4000 1950 2    50   ~ 0
+Text Label 4000 2150 2    50   ~ 0
 A4
-Text Label 4000 1850 2    50   ~ 0
+Text Label 4000 2050 2    50   ~ 0
 A5
-Text Label 4000 1750 2    50   ~ 0
+Text Label 4000 1950 2    50   ~ 0
 A6
-Text Label 4000 1650 2    50   ~ 0
+Text Label 4000 1850 2    50   ~ 0
 A7
 Text Label 4000 4650 2    50   ~ 0
 A10
@@ -985,25 +958,21 @@ Text Label 4000 5650 2    50   ~ 0
 A21
 Text Label 4000 5550 2    50   ~ 0
 A22
-Text Label 4000 4950 2    50   ~ 0
-A8
 Text Label 4000 4850 2    50   ~ 0
+A8
+Text Label 4000 4750 2    50   ~ 0
 A9
 Text Label 4800 2250 0    50   ~ 0
-RA0
-Text Label 4800 2150 0    50   ~ 0
-RA1
-Text Label 4800 2050 0    50   ~ 0
 RA2
-Text Label 4800 1950 0    50   ~ 0
+Text Label 4800 2150 0    50   ~ 0
 RA3
-Text Label 4800 1850 0    50   ~ 0
+Text Label 4800 2050 0    50   ~ 0
 RA4
-Text Label 4800 1750 0    50   ~ 0
+Text Label 4800 1950 0    50   ~ 0
 RA5
-Text Label 4800 1650 0    50   ~ 0
+Text Label 4800 1850 0    50   ~ 0
 RA6
-Text Label 4800 1550 0    50   ~ 0
+Text Label 4800 1750 0    50   ~ 0
 RA7
 $Comp
 L power:GND #PWR0135
@@ -1017,17 +986,6 @@ F 3 "" H 4800 2350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0136
-U 1 1 5EC98E92
-P 4800 3650
-F 0 "#PWR0136" H 4800 3400 50  0001 C CNN
-F 1 "GND" H 4800 3500 50  0000 C CNN
-F 2 "" H 4800 3650 50  0001 C CNN
-F 3 "" H 4800 3650 50  0001 C CNN
-	1    4800 3650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0137
 U 1 1 5EC99C6D
 P 4800 4950
@@ -1038,33 +996,16 @@ F 3 "" H 4800 4950 50  0001 C CNN
 	1    4800 4950
 	-1   0    0    -1  
 $EndComp
-Text Label 4800 3250 0    50   ~ 0
+Text Label 4800 1650 0    50   ~ 0
 R~CS~
-Text Label 4800 3050 0    50   ~ 0
+Text Label 4800 1550 0    50   ~ 0
 R~OE~
-Text Label 4800 2850 0    50   ~ 0
-R~WE~
 Text Label 4800 4850 0    50   ~ 0
-RA8
+R~WE~
 Text Label 4800 4750 0    50   ~ 0
-RA9
+RA8
 Wire Wire Line
 	4800 1450 4800 1250
-$Comp
-L power:GND #PWR0138
-U 1 1 5EC9E4BB
-P 4900 2550
-F 0 "#PWR0138" H 4900 2300 50  0001 C CNN
-F 1 "GND" H 4900 2400 50  0000 C CNN
-F 2 "" H 4900 2550 50  0001 C CNN
-F 3 "" H 4900 2550 50  0001 C CNN
-	1    4900 2550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 2550 4800 2550
-Wire Wire Line
-	4800 2750 4800 2550
 $Comp
 L power:GND #PWR0139
 U 1 1 5EC9F7AD
@@ -1276,11 +1217,11 @@ Text Label 4800 5750 0    50   ~ 0
 RA19
 Text Label 4800 5850 0    50   ~ 0
 RA18
-Text Label 4000 2950 2    50   ~ 0
+Text Label 4000 4950 2    50   ~ 0
 ~WE~
-Text Label 4000 3150 2    50   ~ 0
+Text Label 4000 1650 2    50   ~ 0
 ~OE~
-Text Label 4000 3350 2    50   ~ 0
+Text Label 4000 1750 2    50   ~ 0
 ~CS~
 $Comp
 L Device:C_Small C11
@@ -1496,58 +1437,6 @@ Connection ~ 8350 1600
 Wire Wire Line
 	8350 1600 8650 1600
 Connection ~ 8650 1600
-$Comp
-L power:GND #PWR0149
-U 1 1 5EC0D3D0
-P 3800 4750
-F 0 "#PWR0149" H 3800 4500 50  0001 C CNN
-F 1 "GND" H 3800 4600 50  0000 C CNN
-F 2 "" H 3800 4750 50  0001 C CNN
-F 3 "" H 3800 4750 50  0001 C CNN
-	1    3800 4750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4750 4000 4750
-$Comp
-L power:GND #PWR0150
-U 1 1 5EC0F52D
-P 3800 3650
-F 0 "#PWR0150" H 3800 3400 50  0001 C CNN
-F 1 "GND" H 3800 3500 50  0000 C CNN
-F 2 "" H 3800 3650 50  0001 C CNN
-F 3 "" H 3800 3650 50  0001 C CNN
-	1    3800 3650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3650 3800 3650
-Wire Wire Line
-	3800 3650 3800 3550
-Wire Wire Line
-	3800 3050 4000 3050
-Connection ~ 3800 3650
-Wire Wire Line
-	4000 3250 3800 3250
-Connection ~ 3800 3250
-Wire Wire Line
-	3800 3250 3800 3050
-Wire Wire Line
-	4000 3450 3800 3450
-Connection ~ 3800 3450
-Wire Wire Line
-	3800 3450 3800 3250
-Wire Wire Line
-	3800 3550 4000 3550
-Connection ~ 3800 3550
-Wire Wire Line
-	3800 3550 3800 3450
-NoConn ~ 4800 2950
-NoConn ~ 4800 3150
-NoConn ~ 4800 3350
-NoConn ~ 4800 3450
-NoConn ~ 4800 3550
-NoConn ~ 4800 4650
 Wire Wire Line
 	2500 2850 2600 2850
 Wire Wire Line
@@ -1625,35 +1514,6 @@ F 3 "" H 4000 4050 50  0001 C CNN
 	1    4000 4050
 	-1   0    0    -1  
 $EndComp
-$Comp
-L GW_Logic:74245 U9
-U 1 1 5EC8934F
-P 4400 4500
-F 0 "U9" H 4400 5100 50  0000 C CNN
-F 1 "74AHC245" H 4400 3900 50  0000 C CNN
-F 2 "stdpads:TSSOP-20_4.4x6.5mm_P0.65mm" H 4400 3850 50  0001 C TNN
-F 3 "" H 4400 4600 60  0001 C CNN
-F 4 "C132987" H 4400 4500 50  0001 C CNN "LCSC Part"
-	1    4400 4500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 2650 3900 2850
-Wire Wire Line
-	3800 2650 3900 2650
-$Comp
-L power:GND #PWR0131
-U 1 1 5EC5BB53
-P 3800 2650
-F 0 "#PWR0131" H 3800 2400 50  0001 C CNN
-F 1 "GND" H 3800 2500 50  0000 C CNN
-F 2 "" H 3800 2650 50  0001 C CNN
-F 3 "" H 3800 2650 50  0001 C CNN
-	1    3800 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 2850 4000 2850
 $Comp
 L power:GND #PWR0153
 U 1 1 A08D2337
@@ -1842,4 +1702,18 @@ F 4 "C319052" H 5700 2550 50  0001 C CNN "LCSC Part"
 	1    5700 2550
 	1    0    0    -1  
 $EndComp
+$Comp
+L GW_Logic:74245 U9
+U 1 1 5EC8934F
+P 4400 4500
+F 0 "U9" H 4400 5100 50  0000 C CNN
+F 1 "74AHC245" H 4400 3900 50  0000 C CNN
+F 2 "stdpads:TSSOP-20_4.4x6.5mm_P0.65mm" H 4400 3850 50  0001 C TNN
+F 3 "" H 4400 4600 60  0001 C CNN
+F 4 "C132987" H 4400 4500 50  0001 C CNN "LCSC Part"
+	1    4400 4500
+	-1   0    0    -1  
+$EndComp
+Text Label 4800 4650 0    50   ~ 0
+RA9
 $EndSCHEMATC
