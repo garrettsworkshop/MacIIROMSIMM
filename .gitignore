@@ -27,3 +27,10 @@ fp-info-cache
 
 *.DS_Store
 Documentation/~$M SIMM Manual.docx
+ROMSIMM8MB.4402B/Documentation/Thumbs.db
+ROMSIMM2MB.4401A/Documentation/Thumbs.db
+ROMSIMM8MB.4402A/Documentation/Thumbs.db
+Documentation/Thumbs.db
+*.kicad_prl
+ROMSIMM-backups/*
+Documentation/~$4402AManual.docx
