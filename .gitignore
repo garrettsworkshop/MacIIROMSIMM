@@ -14,7 +14,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-ROMSIMM-backups/*
+MacIIROMSIMM-backups/*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -27,10 +27,5 @@ ROMSIMM-backups/*
 *.xml
 
 *.DS_Store
-Documentation/~$M SIMM Manual.docx
-ROMSIMM8MB.4402B/Documentation/Thumbs.db
-ROMSIMM2MB.4401A/Documentation/Thumbs.db
-ROMSIMM8MB.4402A/Documentation/Thumbs.db
 Documentation/Thumbs.db
-ROMSIMM.kicad_prl
-Documentation/~$4402AManual.docx
+MacIIROMSIMM.kicad_prl
