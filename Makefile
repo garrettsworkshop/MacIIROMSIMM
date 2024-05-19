@@ -4,9 +4,9 @@ LAYERS = F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts
 F_PCB = $@/../MacIIROMSIMM.kicad_pcb
 F_SCH = $@/../MacIIROMSIMM.kicad_sch
 F_POS = $@/MacIIROMSIMM-top-pos.csv
-F_ZIP = $@/MacIIROMSIMM.4402C-gerber.zip
-F_SCHPDF = $@/MacIIROMSIMM.4402C-Schematic.pdf
-F_PCBPDF = $@/MacIIROMSIMM.4402C-Placement.pdf
+F_ZIP = $@/MacIIROMSIMM.4402B-gerber.zip
+F_SCHPDF = $@/MacIIROMSIMM.4402B-Schematic.pdf
+F_PCBPDF = $@/MacIIROMSIMM.4402B-Placement.pdf
 
 
 OPT_GERBER = -l $(LAYERS) --subtract-soldermask --no-netlist --no-x2
@@ -25,8 +25,8 @@ CMD_PCBPDF = pcb export pdf --black-and-white -l F.Fab,Edge.Cuts -o $(F_PCBPDF) 
 all: gerber Documentation
 clean:
 	rm -fr gerber/
-	rm -f  Documentation/MacIIROMSIMM.4402C-Schematic.pdf
-	rm -f  Documentation/MacIIROMSIMM.4402C-Placement.pdf
+	rm -f  Documentation/MacIIROMSIMM.4402B-Schematic.pdf
+	rm -f  Documentation/MacIIROMSIMM.4402B-Placement.pdf
 
 gerber:
 	mkdir -p $@
