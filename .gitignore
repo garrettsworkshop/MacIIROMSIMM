@@ -29,3 +29,4 @@ MacIIROMSIMM-backups/*
 *.DS_Store
 Documentation/Thumbs.db
 MacIIROMSIMM.kicad_prl
+*.lck
